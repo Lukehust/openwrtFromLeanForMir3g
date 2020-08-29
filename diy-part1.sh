@@ -14,4 +14,4 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git Mentohust https://github.com/Lukehust/mentohust_openwrt' feeds.conf.default
+#sed -i '$a src-git Mentohust https://github.com/Lukehust/mentohust_openwrt' feeds.conf.default
