@@ -11,10 +11,11 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git Mentohust https://github.com/Lukehust/mentohust_openwrt' feeds.conf.default
+
 git clone https://github.com/BoringCat/luci-app-mentohust package/myapp/luci-app-mentohust
 
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk package/myapp/MentoHUST-OpenWrt-ipk
