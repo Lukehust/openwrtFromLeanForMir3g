@@ -16,6 +16,6 @@
 # Add a feed source
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
-git clone https://github.com/BoringCat/luci-app-mentohust package/myapp/luci-app-mentohust
+#git clone https://github.com/BoringCat/luci-app-mentohust package/myapp/luci-app-mentohust
 
-git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk package/myapp/MentoHUST-OpenWrt-ipk
+#git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk package/myapp/MentoHUST-OpenWrt-ipk
